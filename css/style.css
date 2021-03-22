@@ -1,0 +1,26 @@
+* {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+td {
+  border: 3px solid rgba(112, 112, 112, 1);
+  background-color: #bcd5cb;
+  padding: 8px;
+  border-radius: 42px;
+  text-align: center;
+  box-shadow: 3px 5px 0px rgba(112, 112, 112, 1);
+}
+
+th {
+  border: 3px solid rgba(112, 112, 112, 1);
+  background-color: #bcd5cb;
+  padding: 8px;
+  border-radius: 42px;
+  text-align: center;
+  box-shadow: 3px 5px 0px rgba(112, 112, 112, 1);
+}
+
+/* thead { */
+  position: fixed;
+}
+
