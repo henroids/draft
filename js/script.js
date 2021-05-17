@@ -1,4 +1,4 @@
-fetch(".../json/draft.json").then(
+fetch("../json/draft.json").then(
   res=>{
     res.json().then(
       data=>{
@@ -15,6 +15,8 @@ fetch(".../json/draft.json").then(
               temp +="<td>"+u.School+"</td>";
               // temp +="<td>"+u.Style+"</td>";
             })
+
+            console.log('data =' + data[0]["Player_Line"]);
           // close for loop
 
             document.getElementById("data").innerHTML = temp;
