@@ -1,4 +1,4 @@
-fetch("https://sheetdb.io/api/v1/syvbpd4v5i4xz").then(
+fetch(".../json/draft.json").then(
   res=>{
     res.json().then(
       data=>{
