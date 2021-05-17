@@ -1,4 +1,4 @@
-fetch("../json/draft.json").then(
+fetch("../json/draft.json", {headers: {"Content-Type":"application/json","Accept":"application/json"}}).then(
   res=>{
     res.json().then(
       data=>{
